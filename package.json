@@ -1,0 +1,25 @@
+{
+  "name": "fullcycle-kafka",
+  "version": "1.0.0",
+  "description": "### Iniciando o serviço e entrando no container",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuslcandido/fullcycle-kafka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheuslcandido/fullcycle-kafka/issues"
+  },
+  "homepage": "https://github.com/matheuslcandido/fullcycle-kafka#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.1.2"
+  }
+}
